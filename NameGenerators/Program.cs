@@ -15,7 +15,7 @@ namespace NameGenerators {
             Console.Write(spaceBodyGenerator.GenerateName(r, 3, 4));
             Console.WriteLine("\n");
 
-            var fromSyllablesNameGenerator = new FromSyllablesNameGenerator();
+            var fromSyllablesNameGenerator = new SyllablesNameGenerator();
             Console.Write("From syllables: ");
             Console.Write(fromSyllablesNameGenerator.GenerateName(r, 2));
             Console.Read();
